@@ -9,7 +9,7 @@ border: border-box;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .nav-logo {
@@ -20,8 +20,13 @@ border: border-box;
 .logo {
     background-image: url("amazon_logo.png");
     background-size: cover;
+    margin-left: 10px;
     height: 100%;
     width: 100%;
+}
+
+.nav-address {
+    margin-left: 20px;
 }
 
 .border {
@@ -53,6 +58,7 @@ display: flex;
     width: 620px;
     height: 40px;
     border-radius: 4px;
+    margin-left: 30px;
 }
 
 .search-select {
@@ -87,6 +93,10 @@ border: none;
     color:#0f1111 ;
 }
 
+.nav-sigin{
+    margin-left: 30px;
+}
+
 span {
     font-size: 0.7rem;
 }
@@ -96,12 +106,17 @@ span {
     font-weight: 700;
 }
 
+.nav-return {
+    margin-left: 20px;
+}
+
 .nav-cart i  {
     font-size: 25px;
 }
 
 .nav-cart {
     font-weight: 700;
+    margin-left: 20px;
 }
 
 .panel {
